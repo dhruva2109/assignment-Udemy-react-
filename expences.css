@@ -1,0 +1,25 @@
+/* Expenses.css */
+.expenses {
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+/* ExpenseItem.css */
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.expense-item__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-item__price {
+  color: #3c3c3c;
+}
